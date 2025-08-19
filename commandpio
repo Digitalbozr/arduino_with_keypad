@@ -1,0 +1,5 @@
+pio run
+pio run --target upload
+pio run --target upload --upload-port COM3
+pio device monitor --baud 9600
+pio upgrade
